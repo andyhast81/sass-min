@@ -1,0 +1,30 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: #333;
+.style {
+  font-size: 40px;
+
+  span {
+    font-size: 0.8em;
+  }
+}
+h1 {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+}
