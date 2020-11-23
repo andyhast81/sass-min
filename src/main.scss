@@ -7,3 +7,28 @@
     background-color: white;
   }
 }
+.test {
+  display: block;
+
+  ul {
+    list-style: none;
+
+    li {
+      padding: 10px;
+
+      a {
+        color: blue;
+        display: block;
+        position: relative;
+
+        &:after {
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 10px;
+          height: 5px;
+        }
+      }
+    }
+  }
+}
